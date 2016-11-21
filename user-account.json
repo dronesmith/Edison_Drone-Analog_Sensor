@@ -1,8 +1,8 @@
 [
   {
-    "api_key": "3824a348-8048-4593-840a-fc785d214415",
-    "drone_name": "elegant_brattain",
-    "email": "atthack@dronesmith.io"
+    "api_key": "Your Dronesmith API Key",
+    "drone_name": "Your Drone name",
+    "email": "Your Dronesmith account email"
   }
 
 ]

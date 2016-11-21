@@ -32,7 +32,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     This script requires the Python packages requests and geopy.
     pip install requests
-    pip install geopy
+    pip install mraa
 
     This script iterates through a JSON file of user account info and for
     each user it gets the current position of the user's drone, calculates
@@ -49,8 +49,6 @@ import random
 import time
 import math
 import mraa
-from geopy.distance import vincenty
-
 
 # Open file containing user account info
 with open('user-account.json') as json_data:
